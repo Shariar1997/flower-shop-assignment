@@ -2,7 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
-
+.body{
+    font-family:'Open Sans', sans-serif;
+}
 /* Main 1st Section Container Part */
 .header-container {
     height: 100vh;
@@ -15,7 +17,7 @@
 
 .header-img {
     width: 635px;
-    height: 850px;
+    height: 890px;
     flex-shrink: 0;
 }
 
@@ -175,25 +177,29 @@
 
 /* feedback from customers section */
 
-.customer{
+
+.customer-feedback{
     display: flex;
     justify-content: space-around;
-    text-align: center;
-    background-color: rgb(135, 170, 172);
-    align-items: center;
-    gap: 20px;
-    margin: 130px;
+    background-color: cadetblue;
+    padding: 40px;
+    height: 100vh;
 }
 .feedback{
-    display: flex;
-    justify-content: space-around;
+    width: 230px;
+    height: 250px;
     text-align: center;
-    align-items: center;
+}
+.customer-img{
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+}
+.feed-desc{
+    font-size: 24px;
+    color: rgb(235, 224, 167);
+}
 
-}
-.f-desc{
-    font-size: 28px;
-}
 /*Get deal style  */
 
 .get-deal {
